@@ -11,6 +11,15 @@
     
     
     <item>
+      <title>About</title>
+      <link>https://blog.kiriake.dev/about/</link>
+      <pubDate>Fri, 08 Jan 2021 19:25:09 +0000</pubDate>
+      
+      <guid>https://blog.kiriake.dev/about/</guid>
+      <description>Koji Kiriake 1981-07-01</description>
+    </item>
+    
+    <item>
       <title>Hello World</title>
       <link>https://blog.kiriake.dev/hello-world/</link>
       <pubDate>Fri, 08 Jan 2021 19:16:18 +0000</pubDate>
