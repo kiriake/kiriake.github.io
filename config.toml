@@ -1,4 +1,56 @@
 baseURL = "https://blog.kiriake.dev/"
 languageCode = "ja"
 title = "blog.kiriake.dev"
-publishDir = "posts"
+theme = "minimal"
+disqusShortname = "kiriake"
+
+[params]
+    author = "Koji Kiriake"
+    description = "Personal blog theme powered by Hugo"
+    githubUsername = "kiriake"
+    accent = "#336699"
+    showBorder = true
+    backgroundColor = "white"
+    font = "M PLUS 1p"
+    highlight = true
+    highlightStyle = "default"
+    highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift", "python"]
+
+[[menu.main]]
+    url = "/"
+    name = "Home"
+    weight = 1
+
+[[menu.main]]
+    url = "/about/"
+    name = "About"
+    weight = 2
+
+[[menu.main]]
+    url = "/post/"
+    name = "Posts"
+    weight = 3
+
+[[menu.main]]
+    url = "/project/"
+    name = "Projects"
+    weight = 4
+
+# Social icons to be shown on the right-hand side of the navigation bar.
+# The "name" field should match the name of the icon in Font Awesome.
+# The list of available icons can be found at http://fontawesome.io/icons.
+
+[[menu.icon]]
+    url = "mailto:kiriake@gmail.com"
+    name = "fas fa-envelope"
+    weight = 1
+
+[[menu.icon]]
+    url = "https://github.com/kiriake/"
+    name = "fab fa-github"
+    weight = 2
+
+[[menu.icon]]
+    url = "https://twitter.com/kiriake/"
+    name = "fab fa-twitter"
+    weight = 3
