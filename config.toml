@@ -3,6 +3,7 @@ languageCode = "ja"
 title = "blog.kiriake.dev"
 theme = "minimal"
 disqusShortname = "kiriake"
+contentDir = "content"
 publishDir = "docs"
 
 [params]
