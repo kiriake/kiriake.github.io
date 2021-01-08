@@ -1,0 +1,4 @@
+baseURL = "https://blog.kiriake.dev/"
+languageCode = "ja"
+title = "blog.kiriake.dev"
+publishDir = "posts"
