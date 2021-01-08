@@ -3,6 +3,7 @@ languageCode = "ja"
 title = "blog.kiriake.dev"
 theme = "minimal"
 disqusShortname = "kiriake"
+publishDir = "article"
 
 [params]
     author = "Koji Kiriake"
